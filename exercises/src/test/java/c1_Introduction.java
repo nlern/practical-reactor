@@ -18,15 +18,23 @@ import static org.junit.jupiter.api.Assertions.*;
  * <p>
  * Read first:
  * <p>
- * https://projectreactor.io/docs/core/release/reference/#intro-reactive
- * https://projectreactor.io/docs/core/release/reference/#reactive.subscribe
- * https://projectreactor.io/docs/core/release/reference/#_subscribe_method_examples
+ * <a href="https://projectreactor.io/docs/core/release/reference/#intro-reactive">
+ * Project reactor reference documentation
+ * </a>
+ * <a href="https://projectreactor.io/docs/core/release/reference/#reactive.subscribe">
+ * Reactive subscribe
+ * </a>
+ * <a href="https://projectreactor.io/docs/core/release/reference/#_subscribe_method_examples">
+ * Subscribe method examples
+ * </a>
  * <p>
  * Useful documentation:
  * <p>
- * https://projectreactor.io/docs/core/release/reference/#which-operator
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html
- * https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html
+ * <a href="https://projectreactor.io/docs/core/release/reference/#which-operator">
+ * Which operator to use
+ * </a>
+ * <a href="https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html">Mono</a>
+ * <a href="https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html">Flux</a>
  *
  * @author Stefan Dragisic
  */
