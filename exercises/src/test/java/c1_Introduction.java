@@ -63,7 +63,7 @@ public class c1_Introduction extends IntroductionBase {
         Exception exception = assertThrows(IllegalStateException.class, () -> {
             Mono<String> serviceResult = unresponsiveService();
 
-            String result = serviceResult.block(Duration.ofSeconds(1L));
+            serviceResult.block(Duration.ofSeconds(1L));
         });
 
         String expectedMessage = "Timeout on blocking read for 1";
